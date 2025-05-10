@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/byte/gohttpprobe/internal/probe"
+	"github.com/ByteSizedMarius/gohttpprobe/internal/probe"
 	"github.com/spf13/cobra"
 )
 

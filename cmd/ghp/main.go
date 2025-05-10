@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/byte/gohttpprobe/internal/app"
+	"github.com/ByteSizedMarius/gohttpprobe/internal/app"
 )
 
 func main() {

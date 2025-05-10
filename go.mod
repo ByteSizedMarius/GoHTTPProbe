@@ -1,4 +1,4 @@
-module github.com/byte/gohttpprobe
+module github.com/ByteSizedMarius/gohttpprobe
 
 go 1.22.2
 

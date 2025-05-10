@@ -9,18 +9,16 @@ This tool is a reimplementation of the Python [HTTPMethods](https://github.com/S
 - Test multiple HTTP methods against target URLs
 - Detect supported and potentially dangerous HTTP methods
 - Automatic discovery of server-supported methods via OPTIONS request
-- Concurrent request handling for fast results
 - Support for custom headers and cookies
 - Option to read target URLs from a file
 - JSON export for results
-- Low dependencies and simple installation
 
 ## Installation
 
 If you have Go installed, you may use:
 
 ```sh
-go install github.com/byte/gohttpprobe/cmd/ghp@latest
+go install github.com/ByteSizedMarius/gohttpprobe/cmd/ghp@latest
 ```
 
 ### From Source
@@ -182,32 +180,3 @@ ghp -u example.com -m wordlists/burp.txt
 ```
 
 You can also create your own custom wordlist file with HTTP methods and use it with the `-m` flag.
-
-## Development
-
-### Running Tests
-
-Run all tests:
-```sh
-go test ./...
-```
-
-Run tests with verbose output:
-```sh
-go test -v ./...
-```
-
-Check test coverage:
-```sh
-go test -cover ./...
-```
-
-Generate a detailed coverage report:
-```sh
-go test -coverprofile=coverage.out ./...
-go tool cover -html=coverage.out
-```
-
-## License
-
-MIT License
